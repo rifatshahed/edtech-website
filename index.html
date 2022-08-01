@@ -40,10 +40,41 @@
                       <a class="nav-link me-3 text-dark" href="#about">About</a>
                     </li>
                   </ul>
+
+                  <div class="d-flex ms-auto">
+                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" placeholder="Enter Your Password">Register Now</button>
+      
+                  <div class="modal fade" id="exampleModal" tabindex="-1"     aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                  <div class="modal-content">
+                  <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+                <div class="modal-body">
+                <form>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Email:</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="mb-3">
+                  <label for="message-text" class="col-form-label">Password:</label>
+                  <textarea class="form-control" id="message-text"></textarea>
+                </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">SignUp</button>
+              </div>
+            </div>
+           </div>
+          </div>
+                </div>
                   
-                  <form class="d-flex ms-auto" role="search">
+                  <!-- <form class="d-flex ms-auto" role="search">
                     <button class="btn btn-outline-primary" type="">Register</button>
-                  </form>
+                  </form> -->
 
                 </div>
               </div>
@@ -287,9 +318,41 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center align-items-center ">
+
+            <div class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center align-items-center">
+              <button type="button" class="btn bg-white text-primary mb-2" data-bs-toggle="modal" data-bs-target="#exampleModal" placeholder="Enter Your Password">Register Now</button>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1"     aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         </div>
+          <div class="modal-body">
+          <form>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">Email:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">Password:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">SignUp</button>
+        </div>
+      </div>
+     </div>
+    </div>
+          </div>
+
+            <!-- <div class="col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center align-items-center ">
               <button class="btn bg-white text-primary mb-2">Register Now</button>
-            </div>
+            </div> -->
 
           </div>
         </section>
